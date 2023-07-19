@@ -1,0 +1,23 @@
+﻿body {
+
+}
+.MasterDiv{
+   width: 80%;
+   height: 50px;
+   background-color: blue;
+   color: white;
+   text-align: center;
+   font-size: xx-large;
+   font-weight: bold; 
+   margin: auto; 
+}
+.ButtonDiv {
+    width: 80%;
+    height: 500px;
+    background-color: aliceblue;
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: auto;
+}

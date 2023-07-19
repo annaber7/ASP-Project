@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="ProjectOneASP.Menu1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<title></title>
+    <link href="StyleSheet11.css" type="text/css" rel="stylesheet" />
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+<style type="text/css">
+    
+</style>
+</head>
+<body>
+<form id="form1" runat="server">
+    <div class="MasterDiv">
+        <asp:Label ID="lblReports" runat="server" CssClass="auto-style1" style="z-index: 1" Text="Reports"></asp:Label>
+        <asp:Label ID="LabelDate" runat="server" Text="(datetime)"></asp:Label>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+     
+        </asp:ContentPlaceHolder>
+    </div>
+</form>
+</body>
+</html>

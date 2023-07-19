@@ -1,0 +1,12 @@
+﻿body {
+}
+.MasterDiv {
+    width: 80%;
+    height: 50px;
+    background-color: mediumpurple;
+    color: gold;
+    text-align: center; 
+    font-size: xx-large;
+    font-weight: bold; 
+    margin: auto; 
+}
